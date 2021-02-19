@@ -7,6 +7,6 @@ Commandos
 # pkg install php
 # pkg install git
 # termux-setup-storage
-# git clone
-# cd
+# git clone https://github.com/Xi-byte/fBguard
+# cd fBguard
 # php BguardF.php
