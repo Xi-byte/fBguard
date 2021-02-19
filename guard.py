@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-# https://m.facebook.com/jf.hk.167.phtml
+# https://m.facebook.com/jf.hk.167
 
 import requests,sys,optparse
 
