@@ -1,4 +1,4 @@
-#-*- coding: utf-8681367 -*-
+#-*- coding: utf-8 -*-
 # https://m.facebook.com/jf.hk.167
 
 import requests,sys,optparse
