@@ -1,4 +1,4 @@
-<?php
+<?php  <?php
 // geci return (csak a consolehez)
 $biru = "\e[34m";
 $kuning = "\e[33m";
@@ -7,7 +7,7 @@ $magenta = "\e[35m";
 $hijau = "\e[92m";
 $merah = "\e[91m";
 echo "$hijau  ×============================================×\n";
-echo "$hijau  [  keszitette:  : zff7                 ]\n";
+echo "$hijau  [  Author: José fernado  ]              ]\n";
 echo "$hijau  ×============================================ï¿½\n\n";
 echo "$input $magenta FB ACCOUNT GUARD TESO ERTED>> : ";
 $token= trim(fgets(STDIN));
@@ -42,7 +42,7 @@ if($me && $me->id) {
         "fb_api_caller_class" => "IsShieldedSetMutation",
         "access_token" => $token
     )));
-    if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==> $hijau Siker, ellenőrizd fb-profilod";
+    if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==>Enviada com sucesso";
     else "fuck it :( GECI NÉZD MEG A FASZBUK TOKENED";
 }
 ?>
